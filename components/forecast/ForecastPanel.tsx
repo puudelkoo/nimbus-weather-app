@@ -624,7 +624,7 @@ function HourlyChart({ data }: { data: HourPoint[] }) {
     <div className="chart-scroll mt-4 w-full overflow-x-auto overflow-y-hidden pb-2">
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        className="block h-[145px] w-[920px] md:h-[190px] md:w-[1050px] xl:h-[170px] xl:w-[1180px] min-[1780px]:h-[145px] min-[1780px]:w-full"
+        className="block h-[145px] w-[920px] md:h-[190px] md:w-[1050px] xl:h-[145px] xl:w-[1180px] min-[1780px]:h-[145px] min-[1780px]:w-full"
         preserveAspectRatio="none"
       >
         <defs>
