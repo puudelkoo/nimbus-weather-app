@@ -572,7 +572,7 @@ function HourlyChart({ data }: { data: HourPoint[] }) {
   }
 
   const W = 1200;
-  const H = 150;
+  const H = 130;
 
   const padX = 28;
   const padTop = 24;
