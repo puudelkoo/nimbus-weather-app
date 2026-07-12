@@ -103,3 +103,38 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/puudelkoo/nimbus-weather-app.git
+```
+Go to the project folder:
+
+```bash
+cd nimbus-weather-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project locally:
+
+```bash
+npm run dev
+```
+
+Build the production version:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The project is hosted on **GitHub Pages**.  
+Deployment is handled automatically with **GitHub Actions** after each push to the `main` branch.
+
+The application uses a static Next.js export, so it can be hosted as a regular static website.
+
+## Project status
+
+The project is a working version of a weather application with a responsive interface, interactive map, air quality data and weather forecasts. Future improvements may include saving favorite cities, historical charts, animations, tests or PWA support.
