@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useLocation } from "@/context/LocationContext";
 import CitySearchInput from "./CitySearchInput";
+import { getAssetPath } from "@/utils/getAssetPath";
 
 export default function Header() {
   const { location } = useLocation();
@@ -14,7 +15,7 @@ export default function Header() {
         {/* Logo */}
         <div className="relative h-11 w-11 shrink-0 lg:h-12 lg:w-12">
           <Image
-            src="/logo2.png"
+            src={getAssetPath("/logo2.png")}
             alt="Nimbus logo"
             fill
             className="object-contain"
